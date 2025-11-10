@@ -10,10 +10,10 @@ const AddPage = () => {
   const addItem = async (item) => {
     try {
       await axios.post(`${BASE_URL}/api/items`, item);
-      alert("✅ Item added successfully!");
+      alert("Item added successfully!");
     } catch (error) {
       console.error("Error adding item:", error);
-      alert("❌ Failed to add item.");
+      alert(" Failed to add item.");
     }
   };
 

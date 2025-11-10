@@ -5,7 +5,7 @@ import axios from "axios";
 
 const AddPage = () => {
   const navigate = useNavigate();
-  const BASE_URL = "http://localhost:5000";
+  const BASE_URL = "https://rentable-p4md.onrender.com";
 
   const addItem = async (item) => {
     try {

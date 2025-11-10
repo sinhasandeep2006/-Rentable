@@ -6,7 +6,7 @@ import ItemList from "../components/ItemList";
 const FindPage = () => {
   const [items, setItems] = useState([]);
   const [filters, setFilters] = useState({ category: "", minPrice: "", maxPrice: "" });
-  const BASE_URL = "http://localhost:5000";
+  const BASE_URL = "https://rentable-p4md.onrender.com";
   const navigate = useNavigate();
 
   const fetchItems = async () => {
